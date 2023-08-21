@@ -1,0 +1,164 @@
+:root{
+    --bg: linear-gradient( green, red, yellow);
+}
+
+html{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body{
+    background: #162938;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background: linear-gradient( green, red, yellow);
+    display: flex;
+    height: 20rem;
+    width: 100vw;
+}
+
+.one_nav{
+    flex: 1;
+}
+
+h1{
+    font-size: 7rem;
+    margin: 0;
+}
+
+.one_nav ul{
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-around;
+}
+
+.one_nav li{
+    list-style-type: none;
+    margin-left: 6rem;
+}
+
+.one_nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.recherche .button{
+    background: #0000ff;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    height: 3.5rem;
+    width: 15rem;
+}
+
+.search{
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    height: 3rem;
+    width: 40rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* fin du header */
+
+/* debut du css de produit */
+
+.produit{
+    background: #162938;
+    display: flex;
+    height: 40rem;
+    justify-content: space-around;
+    margin-top: 3rem;
+    width: 100w;
+}
+
+/* fin du css de profuit */
+
+/* debut du css de title */
+
+.title{
+    font-size: 4rem;
+}
+
+.title li{
+    list-style-type: none;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+/* debut du css de type */
+
+.type{
+    position: fixed;
+    height: 15rem;
+    margin-top: -4rem;
+    width: 100vw;
+}
+
+.type ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.type li{
+    list-style-type: none;
+    font-size: 3rem;
+}
+
+.type a{
+    text-decoration: none;
+    background: red;
+    border-radius: 1rem;
+    background: var(--bg);
+    color: #000000;
+    height: 5rem;
+    padding: 1rem;
+    width: 15rem;
+}
+
+/* debut du css footer */
+
+footer{
+    background: linear-gradient(green, red, yellow), fixed;
+    margin-top: 11.5rem;
+    height: 7rem;
+    width: 100vw;
+}
+
+footer h2{
+    font-size: 3rem;
+    margin: 0;
+}
+
+footer b{
+    color: #00ff00;
+}
+
+footer .b{
+    color: #ffff00;
+}
+
+footer strong{
+    color: #ff0000;
+}
+
+marquee{
+    font-size: 3rem;
+}

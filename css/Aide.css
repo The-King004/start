@@ -1,0 +1,18 @@
+html{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow-x: hidden;
+}
+
+marquee{
+    margin-top: 15rem;
+    font-size: 40rem;
+}
